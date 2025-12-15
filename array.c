@@ -82,3 +82,15 @@ int main()
     printArr(&students);
     free(students.data);
 }
+
+
+// methods to implement: 
+
+/*
+push
+pop
+insert
+remove
+print
+search
+*/
