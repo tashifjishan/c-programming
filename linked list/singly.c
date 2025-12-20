@@ -42,7 +42,7 @@ void insertAtTail(struct Node **head, int data)
         *head = temp;
         return;
     }
-
+  
     struct Node *current = *head;
     while (current->next != NULL)
         current = current->next;
