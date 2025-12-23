@@ -26,7 +26,7 @@ void enqueue(struct Queue *q, int value) {
 }
 
 // Dequeue operation
-void dequeue(struct Queue *q) {
+void dequeue(struct Queue *q){
     if (q->front == -1 || q->front > q->rear) {
         printf("Queue Underflow\n");
         return;
