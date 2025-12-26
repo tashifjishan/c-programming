@@ -9,7 +9,7 @@ struct Stack
     int top;
 };
 
-void initStack(struct Stack *s)
+void inItStack(struct Stack *s)
 {
     s->top = -1;
 }
@@ -76,7 +76,8 @@ void display(struct Stack *s)
 int main()
 {
     struct Stack s;
-    initStack(&s);
+    
+    inItStack(&s);
 
     push(&s, 10);
     push(&s, 20);

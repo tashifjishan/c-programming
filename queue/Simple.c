@@ -58,3 +58,18 @@ int main() {
 
     return 0;
 }
+
+/*
+
+
+
+
+1. Take exam
+2. View Result
+3. Analyse
+4. print question paper
+5. exit
+
+
+
+*/
