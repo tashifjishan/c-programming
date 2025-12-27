@@ -58,7 +58,6 @@ void deletenode(struct node **root,int data){
     }
     else{
         if((*root)->left==NULL && (*root)->right==NULL){
-            printf("Successfully deleted %d\n",*root);
             free(*root);
             *root=NULL;
             
@@ -66,7 +65,6 @@ void deletenode(struct node **root,int data){
         else if((*root)->left==NULL ){
             
             struct node *temp = *root;
-            printf("Successfully deleted %d\n",*temp);
             *root = (*root)->right;
             free(temp);
             
@@ -85,19 +83,27 @@ void deletenode(struct node **root,int data){
     }
 }
 void inorder(struct node *root){
-
+    if(root == NULL){
+        return;
+    }
+    inorder(root->left);
+    printf("%d\n",root->data);
+    inorder(root->right);
 }
 int main(){
     struct node *root = NULL;
     insert(&root, 50);
     insert(&root, 30);
     insert(&root, 70);
+    inorder(root);
     insert(&root, 20);
     insert(&root, 40);
     insert(&root, 60);
     insert(&root, 80);
+    inorder(root);
     deletenode(&root, 20);
     deletenode(&root, 30);
     deletenode(&root, 50);
+    inorder(root);
     return 0;
 }

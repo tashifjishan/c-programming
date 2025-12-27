@@ -148,6 +148,6 @@ int main() {
 
     printf("\n\nAfter deletion (Inorder):\n");
     inorder(root);
-
+    
     return 0;
 }
