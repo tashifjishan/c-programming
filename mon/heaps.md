@@ -11,9 +11,9 @@ A Heap is a special complete binary tree used when we want:
 
 - 1️⃣ Complete Binary Tree
 
-* All levels are completely filled
+    - All levels are completely filled
 
-* Last level is filled from left to right
+    - Last level is filled from left to right
 
 - 2️⃣ Heap Property
 
