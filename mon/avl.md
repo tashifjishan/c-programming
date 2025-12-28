@@ -12,13 +12,13 @@ AVL = Adelson-Velsky and Landis
     - Normal BST can become skewed (like a linked list).
     - Example (bad BST):
 
-            ```bash
-            10
-            \
-            20
-                \
-                30
-            ```
+```bash
+10
+\
+20
+    \
+    30
+```
 
     - ⛔ Search becomes O(n)
     - AVL Tree fixes this by rotations.
@@ -60,7 +60,7 @@ When?
 - Example:
 
 Insert: 30, 20, 10
-
+```bash
 Before rotation:
 
     30
@@ -76,7 +76,7 @@ BF of 30 = +2 ❌
     20
    /  \
  10   30
-
+```
 
 ✅ Balanced
 
@@ -88,7 +88,7 @@ When?
 - Example:
 
 Insert: 10, 20, 30
-
+```bash
 Before rotation:
 
 10
@@ -104,7 +104,7 @@ Left Rotation:
     20
    /  \
  10   30
-
+```
 
 ✅ Balanced
 
@@ -117,7 +117,7 @@ When?
 - Example:
 
 - Insert: 30, 10, 20
-
+```bash
 Before:
 
     30
@@ -138,7 +138,7 @@ Before:
    /  \
  10   30
 
-
+```
 ✅ Balanced
 
 ## RL ROTATION (Right-Left)
