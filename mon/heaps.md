@@ -19,7 +19,7 @@ A Heap is a special complete binary tree used when we want:
 
 There are two types of heaps:
 
-Heap Type	Rule
------------------------------
-Max Heap |	Parent ≥ Children
-Min Heap |	Parent ≤ Children
+| Heap Type | Rule                |
+|----------|---------------------|
+| Max Heap | Parent ≥ Children   |
+| Min Heap | Parent ≤ Children   |
