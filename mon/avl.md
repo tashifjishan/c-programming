@@ -151,7 +151,7 @@ When?
 - Insert: 10, 30, 20
 
 Before:
-
+```bash
 10
   \
    30
@@ -169,7 +169,7 @@ Before:
     20
    /  \
  10   30
-
+```
 
 ✅ Balanced
 
