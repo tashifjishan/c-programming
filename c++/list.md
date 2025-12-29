@@ -51,3 +51,6 @@ int main() {
 }
 
 ```
+
+
+<!-- Deque stack, map and multimap, function of iterator algo: find, count and sort, algorithms: search, merge, for_each and transform -->
