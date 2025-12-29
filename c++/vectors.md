@@ -31,8 +31,7 @@ cout << v.at(1);
 
 ```
 
-![alt text](image-2.png)
-
+# Adding Elements
 - Example:
 
 ```c
